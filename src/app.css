@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+select{
+  cursor: pointer;
+}
+
+input, select, button{
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-scroll{
+    scrollbar-width: thin;
+}
+.custom-scroll::-webkit-scrollbar{
+    min-width: 4.5px;
+    max-width: 4.5px;
+    min-height: 4.5px;
+    max-height: 4.5px;
+}
+.custom-scroll::-webkit-scrollbar-track{
+    background-color: white
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+    background-color: #9D9D9D;
+    border-radius: 5px;
+    height: 2px;
+}
+
+.custom-checkbox-4[type=checkbox]{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+    border: 1px solid #858585;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.custom-checkbox-4[type=checkbox]:checked{
+    background-size: 16px 16px;
+    background-image: url('/images/icons/check.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.checkbox-brand[type=checkbox]{
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -o-appearance:none;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.checkbox-brand[type=checkbox]:checked{
+    background-size: 14px 14px;
+    background-image: url('/images/icons/check.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.select-with-styled-arrow{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/images/icons/down-arrow-yellow.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.toggle input:checked + span {
+  background-color: white;
+  transform: translateX(14px);
+}
+
+.w-\[5\%\]{
+  width: 5%;
+}
+.w-\[8\%\]{
+  width: 3%;
+}
+.w-\[10\%\]{
+  width: 10%;
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to { 
+      transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes rotate {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to { 
+      -webkit-transform: rotate(360deg);
+  }
+}
+
+.load {
+  -webkit-transition: all 0.5s ease-in;
+  -webkit-animation-name: rotate; 
+  -webkit-animation-duration: 1.0s; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  border-right-color: transparent;  
+  border-bottom-color: transparent;  
+
+  transition: all 0.5s ease-in;
+  animation-name: rotate; 
+  animation-duration: 1.0s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.bubble {
+  width: 6px;
+  height: 6px;
+  background-color: #FFCC00;
+  border-radius: 50%;
+  animation: wave 0.9s linear infinite;
+}
+
+.bubble:nth-child(2) {
+  animation-delay: -0.7s;
+}
+
+.bubble:nth-child(3) {
+  animation-delay: -0.5s;
+}
+
+@keyframes wave {
+  0% {
+      transform: translateY(0);
+  }
+  25% {
+      transform: translateY(-4px);
+  }
+  50% {
+      transform: translateY(0);
+  }
+  75% {
+      transform: translateY(4px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
