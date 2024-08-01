@@ -1,0 +1,1 @@
+<h1>/admin/organizations/delete</h1>

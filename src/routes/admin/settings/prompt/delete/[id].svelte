@@ -1,0 +1,1 @@
+<h1>/admin/prompt/delete</h1>
