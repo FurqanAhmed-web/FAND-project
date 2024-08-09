@@ -1,0 +1,1 @@
+<h1>/teams/profile-image</h1>
