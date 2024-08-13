@@ -1,0 +1,1 @@
+<h1>/organization/check-name-availability</h1>
