@@ -1,0 +1,1 @@
+<h1>/media/delete</h1>
