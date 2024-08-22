@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"type": "Incoming"
+	},
+	{
+		"id": 2,
+		"type": "Freshman"
+	},
+	{
+		"id": 3,
+		"type": "Sophomore"
+	},
+	{
+		"id": 4,
+		"type": "Junior"
+	},
+	{
+		"id": 5,
+		"type": "Senior"
+	},
+	{
+		"id": 6,
+		"type": "Graduate-Student"
+	}
+]

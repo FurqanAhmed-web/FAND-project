@@ -1,0 +1,13 @@
+{
+	"DATE": "date",
+	"DATE_RANGE": "range",
+	"HASHTAGS": "hashtags",
+	"TEXT_INPUT": "text",
+	"NUMBER_INPUT": "number",
+	"EMAIL_INPUT": "email",
+	"TEXT_AREA": "textarea",
+	"CHECK_BOX": "checkbox",
+	"CHECK_BOXES": "checkboxes",
+	"DROPDOWN": "dropdown",
+	"FILE": "file"
+}

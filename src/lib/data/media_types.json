@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "type":"jpg"
+    },
+    {
+        "id":2,
+        "type":"mp3"
+    },
+    {
+        "id":3,
+        "type":"mp4"
+    },
+    {
+        "id":4,
+        "type":"pdf"
+    },
+    {
+        "id":5,
+        "type":"png"
+    },
+    {
+        "id":6,
+        "type":"txt"
+    }
+]

@@ -1,0 +1,1 @@
+<input class="flex flex-grow rounded-lg border-[1px] border-gray-2 px-4 h-[35px] text-md leading-sm font-regular font-medium" type="text" placeholder="Send a message">

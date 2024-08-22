@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"type": "Standard"
+	},
+	{
+		"id": 2,
+		"type": "Pro"
+	},
+	{
+		"id": 3,
+		"type": "Enterprise"
+	}
+]

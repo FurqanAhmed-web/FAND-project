@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"type": "Approved"
+	},
+	{
+		"id": 2,
+		"type": "Posted"
+	},
+	{
+		"id": 3,
+		"type": "Received"
+	},
+	{
+		"id": 4,
+		"type": "Returned"
+	},
+	{
+		"id": 5,
+		"type": "Signed"
+	},
+	{
+		"id": 6,
+		"type": "Submitted For Review"
+	}
+]
